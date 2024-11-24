@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\VS_save\DirectX_Nogun\x64\Debug\DirectX_Nogun.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>E:\VS_save\DirectX_Nogun\x64\Debug\BasicPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\VS_save\DirectX_Nogun\x64\Debug\BasicVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\VS_save\DirectX_Nogun\x64\Debug\SkyboxPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\VS_save\DirectX_Nogun\x64\Debug\SkyboxVS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

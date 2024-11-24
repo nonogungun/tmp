@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="System.cpp">
+      <Filter>01System</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>01System</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Tmp.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsCommon.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsPSO.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>01System</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KeyManager.h">
+      <Filter>01System</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Tmp.h" />
+    <ClInclude Include="System.h">
+      <Filter>01System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>01System</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCommon.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPSO.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>01System</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoader.h">
+      <Filter>01System</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01System">
+      <UniqueIdentifier>{20b88fe6-be17-418d-b0d4-491296d1d793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{87ce0425-a23f-4dc3-883c-b5b20055439c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{c89dca99-b654-492b-b9b6-09752cc82c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{fce57524-04f3-46d4-b287-91f543df90c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{c5bd6640-e8cb-4847-b7cf-1786eb990c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{59a2de4a-1d0a-4e23-9fa0-2e0b8c4f821e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="SkyboxVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyboxPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="BasicVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="BasicPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="common.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
